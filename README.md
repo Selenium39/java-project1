@@ -1,6 +1,7 @@
 # project1
 简单的注册登录留言功能  :javaBean+jsp+servlet+mysql
-遇到的一些问题
+
+遇到的一些问题:
 
 1.利用jquery重定向和跳转
 
