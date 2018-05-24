@@ -1,0 +1,68 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>RegisterServlet</servlet-name>
+		<display-name>RegisterServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<display-name>LoginServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PublishMessageServlet</servlet-name>
+		<display-name>PublishMessageServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.PublishMessageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShowMessageServlet</servlet-name>
+		<display-name>ShowMessageServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.ShowMessageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PublishReplyServlet</servlet-name>
+		<display-name>PublishReplyServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.PublishReplyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShowReplyServlet</servlet-name>
+		<display-name>ShowReplyServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.ShowReplyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/RegisterServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PublishMessageServlet</servlet-name>
+		<url-pattern>/PublishMessageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowMessageServlet</servlet-name>
+		<url-pattern>/ShowMessageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PublishReplyServlet</servlet-name>
+		<url-pattern>/PublishReplyServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowReplyServlet</servlet-name>
+		<url-pattern>/ShowReplyServlet</url-pattern>
+	</servlet-mapping>
+
+</web-app>
