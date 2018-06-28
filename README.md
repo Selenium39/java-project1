@@ -64,5 +64,8 @@ https://blog.csdn.net/kxx535943581/article/details/47816109（其实只是关闭
 https://blog.csdn.net/xinmashang/article/details/38492349
 
 16.把js  new Date转换成想要的时间 yyyy-mm-dd  hh-min:
+https://www.jianshu.com/p/15ffa504b877<br/>
+1７.换成了ubuntu的系统,以前的项目都没有了,把这个导入现在的系统,发生报错:```org.apache.jasper.JasperException: Failed to load or instantiate TagLibraryV``` 一看就是jar包冲突了,于是我按报错找到jstl.jar把它删了，又报错```java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/ConditionalTagSupport```,wtf,刚删找不到???,后来一百度，原来有人和我一样:<br/>https://blog.csdn.net/xlgen157387/article/details/51345220
+18.还有一个报错```Unknown system variable 'query_cache_size'```原来是我原先装的mysql5的版本,现在装的mysql8的版本,将mysql-connection调高就好了<br/>
+https://www.cnblogs.com/nicknailo/articles/9074804.html
 
-https://www.jianshu.com/p/15ffa504b877
