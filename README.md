@@ -68,4 +68,5 @@ https://www.jianshu.com/p/15ffa504b877<br/>
 1７.换成了ubuntu的系统,以前的项目都没有了,把这个导入现在的系统,发生报错:```org.apache.jasper.JasperException: Failed to load or instantiate TagLibraryV``` 一看就是jar包冲突了,于是我按报错找到jstl.jar把它删了，又报错```java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/ConditionalTagSupport```,wtf,刚删找不到???,后来一百度，原来有人和我一样:<br/>https://blog.csdn.net/xlgen157387/article/details/51345220<br/>
 18.还有一个报错```Unknown system variable 'query_cache_size'```原来是我原先装的mysql5的版本,现在装的mysql8的版本,将mysql-connection调高就好了<br/>
 https://www.cnblogs.com/nicknailo/articles/9074804.html
+19.还有最后一个报错:项目上有一个感叹号,然后点problems说没有资源文件src/main/resources,然后你自己新建却说已经有了,你只要bulid path,然后remove src/main/resources,再重建,搞定
 
