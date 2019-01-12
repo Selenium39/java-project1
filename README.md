@@ -70,3 +70,31 @@ https://www.jianshu.com/p/15ffa504b877<br/>
 https://www.cnblogs.com/nicknailo/articles/9074804.html
 19.还有最后一个报错:项目上有一个感叹号,然后点problems说没有资源文件src/main/resources,然后你自己新建却说已经有了,你只要bulid path,然后remove src/main/resources,再重建,搞定
 
+### 项目截图
+
+#### 0.项目目录结构
+<img src="https://github.com/wantao666/java-project1/blob/master/result-image/0.png?raw=true"/>
+
+#### 1.首页
+<img src="https://github.com/wantao666/java-project1/blob/master/result-image/1.png?raw=true"/>
+
+#### 2.注册页面
+<img src="https://github.com/wantao666/java-project1/blob/master/result-image/2.png?raw=true"/>
+
+#### 3.登录页面
+<img src="https://github.com/wantao666/java-project1/blob/master/result-image/3.png?raw=true"/>
+
+#### 4.登录首页
+<img src="https://github.com/wantao666/java-project1/blob/master/result-image/4.png?raw=true"/>
+
+#### 5.编写留言
+<img src="https://github.com/wantao666/java-project1/blob/master/result-image/5.png?raw=true"/>
+
+#### 6.查看留言
+<img src="https://github.com/wantao666/java-project1/blob/master/result-image/6.png?raw=true"/>
+
+#### 7.编写回复
+<img src="https://github.com/wantao666/java-project1/blob/master/result-image/7.png?raw=true"/>
+
+#### 8.查看回复
+<img src="https://github.com/wantao666/java-project1/blob/master/result-image/8.png?raw=true"/>
